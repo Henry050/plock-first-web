@@ -1,5 +1,5 @@
-@media (max-width: 800px) {
-    .wrapper {
+@media (max-width > 800px) {
+    .wrapper{
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -139,7 +139,7 @@ section{
 }
 
 .sec2{
-    padding-left: 100vh;
+
     gap: 20px;
     margin-left: 120px;
     margin-right: 100px;
