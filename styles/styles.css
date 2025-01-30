@@ -1,5 +1,5 @@
 @media (max-width: 720px) {
-    .henry{
+    .wrapper {
         grid-template-columns: 1fr 1fr;
     }
 }
