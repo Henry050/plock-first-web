@@ -1,5 +1,5 @@
 @media (max-width > 800px) {
-    .wrapper{
+    .header , .climbing-big , .get-sec , .section3 ,.henry ,.teal-big ,.pic,.pic2,.pic3,.sec2,.image-container {
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -104,7 +104,7 @@ padding: auto;
 
 .teal-text{
     color: #087A98;
-    margin: 40px;
+    margin: 10px;
     line-height: 50px;
     margin-bottom: 90px;
 }
@@ -122,12 +122,6 @@ padding: auto;
 
 
 }
-.teal-ry{
-    line-height: 350px;
-    margin-left: 10px;
-    margin-right: 10px;
-    justify-content: right;
-}
 
 .pic3{
     margin-right: 100px;
@@ -139,14 +133,19 @@ section{
 }
 
 .sec2{
+    display: flex;
 
     gap: 20px;
     margin-left: 120px;
     margin-right: 100px;
     margin-bottom: 190px;
     margin-top: 50px;
-
-
+    
+}
+.teal-ry{
+    line-height: 38px;
+    margin-left: 600px;
+    margin-right: 100px;
 }
 
 .section3{
